@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/global_scores"
+        android:title="@string/homefragment_global_scores"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_rank_cup"
+        app:iconTint="@android:color/white" />
+
+    <group
+        android:id="@+id/filter_group">
+        <item
+            android:id="@+id/filter_explore"
+            android:title="@string/homefragment_explore"
+            app:showAsAction="ifRoom" />
+        <item
+            android:id="@+id/filter_mine"
+            android:title="@string/homefragment_mine"
+            app:showAsAction="ifRoom" />
+        <item
+            android:id="@+id/filter_voted"
+            android:title="@string/homefragment_voted"
+            app:showAsAction="ifRoom" />
+    </group>
+
+
+
+</menu>

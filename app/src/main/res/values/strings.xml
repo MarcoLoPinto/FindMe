@@ -1,0 +1,45 @@
+<resources>
+
+    <string name="firebase_id_token" translatable="false">YOUR_WEB_ID_HERE.apps.googleusercontent.com</string>
+
+    <string name="app_name">FindMe</string>
+
+    <string name="main_activity_permission_not_granted">Permission not granted</string>
+
+    <string name="main_activity_permission_camera_warning_title">Camera permission</string>
+    <string name="main_activity_permission_camera_warning_message">The camera permission is mandatory in order to take photos</string>
+    <string name="main_activity_permission_camera_warning_positive_button">Accept</string>
+    <string name="main_activity_permission_camera_warning_negative_button">Reject</string>
+
+    <string name="main_activity_permission_position_warning_title">Position permission</string>
+    <string name="main_activity_permission_position_warning_message">The position permission is mandatory in order to retrieve position</string>
+    <string name="main_activity_permission_position_warning_positive_button">Accept</string>
+    <string name="main_activity_permission_position_warning_negative_button">Reject</string>
+
+    <string name="main_activity_internet_not_available_message">Internet connection is not currently available</string>
+
+    <string name="photo_fragment_position_error_title">Position error</string>
+    <string name="photo_fragment_position_error_message">An error occurred during position request</string>
+    <string name="photo_fragment_position_error_neutral_button">Ok</string>
+    <string name="photo_fragment_uploadphoto_error_title">Photo upload failed</string>
+    <string name="photo_fragment_uploadphoto_error_message">An error occurred during photo uploading</string>
+
+    <string name="signin_fragment_welcome">Test your geographical skills and create new memories!</string>
+    <string name="signin_fragment_authentication_error_title">Authentication Error</string>
+    <string name="signin_fragment_authentication_error_message">Please, complete the authentication procedure</string>
+    <string name="signin_fragment_authentication_error_neutral_button">Ok</string>
+
+    <string name="homefragment_message_empty">The list is currently empty</string>
+    <string name="homefragment_explore">Explore</string>
+    <string name="homefragment_mine">My Photos</string>
+    <string name="homefragment_voted">Voted</string>
+    <string name="homefragment_explore_key" translatable="false">explore</string>
+    <string name="homefragment_mine_key" translatable="false">mine</string>
+    <string name="homefragment_voted_key" translatable="false">voted</string>
+    <string name="homefragment_global_scores">Global Scores</string>
+
+    <string name="userdetails_button_change_image">Change image</string>
+    <string name="userdetails_voted_count_message1">Has voted</string>
+    <string name="userdetails_voted_count_message2">times</string>
+
+</resources>

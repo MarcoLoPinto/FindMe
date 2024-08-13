@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FindMe</string>
+
+    <string name="main_activity_permission_not_granted">Permesso non concesso</string>
+
+    <string name="main_activity_permission_camera_warning_title">Permesso camera</string>
+    <string name="main_activity_permission_camera_warning_message">Il permesso della camera è mandatorio per scattare foto</string>
+    <string name="main_activity_permission_camera_warning_positive_button">Accetta</string>
+    <string name="main_activity_permission_camera_warning_negative_button">Rifiuta</string>
+
+    <string name="main_activity_permission_position_warning_title">Permesso posizione</string>
+    <string name="main_activity_permission_position_warning_message">Il permesso della posizione è mandatorio per ottenere la posizione</string>
+    <string name="main_activity_permission_position_warning_positive_button">Accetta</string>
+    <string name="main_activity_permission_position_warning_negative_button">Rifiuta</string>
+
+    <string name="main_activity_internet_not_available_message">Connessione ad internet al momento non disponibile</string>
+
+    <string name="photo_fragment_position_error_title">Errore posizione</string>
+    <string name="photo_fragment_position_error_message">Si è verificato un errore durante la richiesta della posizione</string>
+    <string name="photo_fragment_position_error_neutral_button">Ok</string>
+    <string name="photo_fragment_uploadphoto_error_title">Caricamento foto fallito</string>
+    <string name="photo_fragment_uploadphoto_error_message">Si è verificato un errore durante il caricamento della foto</string>
+
+    <string name="signin_fragment_welcome">Metti alla prova le tue conoscenze geografiche e crea nuovi ricordi!</string>
+    <string name="signin_fragment_authentication_error_title">Errore di autenticazione</string>
+    <string name="signin_fragment_authentication_error_message">Per favore, completa l\'autenticazione in modo corretto</string>
+    <string name="signin_fragment_authentication_error_neutral_button">Ok</string>
+
+    <string name="homefragment_message_empty">La lista è al momento vuota</string>
+    <string name="homefragment_explore">Esplora</string>
+    <string name="homefragment_mine">Le mie foto</string>
+    <string name="homefragment_voted">Votate</string>
+    <string name="homefragment_global_scores">Classifica</string>
+
+    <string name="userdetails_button_change_image">Cambia immagine</string>
+    <string name="userdetails_voted_count_message1">Ha votato</string>
+    <string name="userdetails_voted_count_message2">volte</string>
+
+</resources>

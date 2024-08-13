@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/home">
+
+    <fragment
+        android:id="@+id/home"
+        android:name="com.liner.findme.ui.home.HomeFragment" >
+        <action
+            android:id="@+id/action_home_to_map"
+            app:destination="@id/map" />
+        <action
+            android:id="@+id/action_home_to_scores"
+            app:destination="@id/scores" />
+        <action
+            android:id="@+id/action_home_to_any_user_details"
+            app:destination="@id/any_user_details" />
+    </fragment>
+    <fragment
+        android:id="@+id/user_details"
+        android:name="com.liner.findme.ui.home.user_details.UserDetailsFragment" />
+    <fragment
+        android:id="@+id/photo"
+        android:name="com.liner.findme.ui.home.photo.PhotoFragment" />
+    <fragment
+        android:id="@+id/map"
+        android:name="com.liner.findme.ui.home.map.MapFragment" >
+        <argument
+            android:name="photoCard"
+            app:argType="com.liner.findme.network.models.PhotoCard" />
+    </fragment>
+    <fragment
+        android:id="@+id/scores"
+        android:name="com.liner.findme.ui.home.scores.ScoresFragment">
+        <argument
+            android:name="photoCard"
+            app:argType="com.liner.findme.network.models.PhotoCard" />
+    </fragment>
+    <fragment
+        android:id="@+id/any_user_details"
+        android:name="com.liner.findme.ui.home.any_user_details.AnyUserDetailsFragment">
+        <argument
+            android:name="photoCard"
+            app:argType="com.liner.findme.network.models.PhotoCard" />
+    </fragment>
+    <fragment
+        android:id="@+id/global_scores"
+        android:name="com.liner.findme.ui.home.global_scores.GlobalScoresFragment" />
+
+</navigation>
