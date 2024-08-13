@@ -30,3 +30,10 @@ FindMe follows the MVVM (Model-View-ViewModel) architecture complemented by Repo
 ## Installation
 
 To get started with FindMe, you will need to set up your own instance of the server. The repository containing the server code will be made available soon.
+
+To correctly build the client, you have to make some simple steps:
+1. Add your google-services.json file from your Firebase Console in the app folder of this repo.
+2. Edit the firebase_id_token field in the [strings.xml](https://github.com/MarcoLoPinto/FindMe/blob/main/app/src/main/res/values/strings.xml) file with your Client Web ID. You can check it in your Firebase Console.
+3. Change the endpoint of your server in [NetworkModule.kt](https://github.com/MarcoLoPinto/FindMe/blob/main/app/src/main/java/com/liner/findme/di/NetworkModule.kt).
+4. If you are using a local server, add the IP in [network_security_config.xml](https://github.com/MarcoLoPinto/FindMe/blob/main/app/src/main/res/xml/network_security_config.xml).
+5. Compile the app and use it with the hosted server!
