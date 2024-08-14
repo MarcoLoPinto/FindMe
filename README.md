@@ -29,7 +29,7 @@ FindMe follows the MVVM (Model-View-ViewModel) architecture complemented by Repo
 
 ## Installation
 
-To get started with FindMe, you will need to set up your own instance of the server. The repository containing the server code will be made available soon.
+To get started with FindMe, you will need to set up your own instance of the server. The repository containing the server code will be available [here](https://github.com/MarcoLoPinto/FindMeServer).
 
 To correctly build the client, you have to make some simple steps:
 1. Add your google-services.json file from your Firebase Console in the app folder of this repo.
